@@ -45,4 +45,21 @@ export const Content = styled.div`
             outline: none;
         }
     }
+
+    button {
+
+        display: flex;
+        float: right;
+        cursor: pointer;
+        margin: 20px
+    }
+`;
+
+export const Button = styled.button`
+
+    display: flex;
+        float: right;
+        cursor: pointer;
+        margin: 20px
+    
 `;
