@@ -35,6 +35,11 @@ export const Content = styled.div`
 `;
 
 export const Text = styled.div`
+
+  * {
+    color: white;
+
+  }
   width: 100%;
   padding: 20px 40px;
   color: white !important;

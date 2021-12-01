@@ -14,4 +14,11 @@ const HeroImage = (props) => (
     </Wrapper>
 );
 
+HeroImage.propTypes = {
+
+    image: PropTypes.string,
+    title: PropTypes.string,
+    text: PropTypes.string
+}
+
 export default HeroImage;

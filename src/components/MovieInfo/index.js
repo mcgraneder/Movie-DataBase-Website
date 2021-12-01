@@ -1,11 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 // Components
 import Thumb from '../Thumb';
 // Config
 import { IMAGE_BASE_URL, POSTER_SIZE } from '../../config';
 // Image
 import NoImage from '../../images/no_image.jpg';
+import PropTypes from "prop-types";
+
 // Styles
 import { Wrapper, Content, Text } from './MovieInfo.styles';
 
